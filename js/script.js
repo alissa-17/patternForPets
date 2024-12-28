@@ -65,5 +65,6 @@ const showPets = function(petArray){
 
 statusButton.addEventListener("click", function(){
     showPets(allPets);
+    statusButton.classList.add("hide");
     }
 );
